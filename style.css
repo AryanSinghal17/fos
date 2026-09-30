@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#222;
+    color:white;
+    font-family:Arial,sans-serif;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#menu{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#333;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.info{
+    padding:10px;
+}
+
+.price{
+    display:flex;
+    justify-content:space-between;
+    margin-top:10px;
+}
+
+button{
+    margin:30px auto;
+    display:block;
+    padding:12px 25px;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+#status{
+    text-align:center;
+    margin-top:20px;
+}
